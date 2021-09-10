@@ -7,7 +7,9 @@ This repository contains a simple script that is able to download all the files 
 
 ATENEA, the virtual learning environment of Universitat Politècnica de Catalunya (UPC), works with adAS as the authentication manager. This supposes an increase in difficulty to use some softwares that perform similar and more advanced tasks than this program. I couldn't manage to make any of them work.
 
-moodle-upc-gathered is based on Selenium, which makes it very easy to navigate through webpages, and can be programmed to replicate mouse clicks and keyboard strokes. The program exploits the fact that resources uploaded to an ATENEA Moodle course are labelled by an unique identifier, which is currently over 3 million. Thus, it's only necessary to check the identifier to determine if there are new files. Over time, I've came across a few files which have a variable identifier. To avoid saving these files every time the program is executed, the `diff` command is used to determine if the contents of the file already exist within a file of the folder or not.
+moodle-upc-gathered is based on Selenium, which makes it very easy to navigate through webpages, and can be programmed to replicate mouse clicks and keyboard strokes. The program exploits the fact that resources uploaded to an ATENEA Moodle course are labelled by an unique identifier, which is currently over 3 million. Thus, it's only necessary to check the identifier to determine if there are new files. 
+
+Over time, I've came across a few files which have a variable identifier. To avoid saving these files every time the program is executed, the `diff` command is used to determine if the contents of the file already exist within a file of the folder or not.
 
 
 
