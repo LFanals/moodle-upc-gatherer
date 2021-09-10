@@ -1,9 +1,9 @@
 # moodle-up-gatherer
 
 This repository contains a simple script that is able to download all the files present in a Moodle course of Universitat Politècnica de Catalunya (UPC). In case some files are already downloaded in the indicated folder, only new files are downloaded. This program comes from the following needs:
-⋅⋅* To download all the course material once it has finished. I like to keep all the contents of a course for future needs, and it's tedious to download the resources one by one. 
-⋅⋅* To keep a local file system up to date with the Moodle courses. Sometimes the university servers stopped working. In other cases I found myself downloading documents and losing some time on this task. 
-⋅⋅* To keep all the documents/versions that have been uploaded to each of the courses.
+* To download all the course material once it has finished. I like to keep all the contents of a course for future needs, and it's tedious to download the resources one by one. 
+* To keep a local file system up to date with the Moodle courses. Sometimes the university servers stopped working. In other cases I found myself downloading documents and losing some time on this task. 
+* To keep all the documents/versions that have been uploaded to each of the courses.
 
 ATENEA, the virtual learning environment of Universitat Politècnica de Catalunya (UPC), works with adAS as the authentication manager. This supposes an increase in difficulty to use some softwares that perform similar and more advanced tasks than this program. I couldn't manage to make any of them work.
 
@@ -54,7 +54,7 @@ You can run the program periodically to have your file directories always up to 
 
 
 ## TODO
-⋅⋅* Gather external resources (contents pointed to by a link). 
-⋅⋅* Improve the folder gathering. 
-⋅⋅* Improve code readability. 
-⋅⋅* Make the program more robust. 
+* Gather external resources (contents pointed to by a link). 
+* Improve the folder gathering. 
+* Improve code readability. 
+* Make the program more robust. 
