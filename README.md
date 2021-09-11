@@ -22,6 +22,14 @@ $ cd google-chrome/
 $ makepkg -s
 ``` 
 
+``` 
+$ cd ~/Downloads
+$ git clone https://aur.archlinux.org/chromedriver.git
+$ cd chromedriver/
+$ makepkg -s
+``` 
+
+
 Make sure you have python installed. In Arch Linux:
 ``` 
 $ sudo pacman -S python
