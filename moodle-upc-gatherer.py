@@ -163,8 +163,3 @@ driver.close()
 print("moodle-upc-gatherer has finished")    
 
 
-
-
-# TODO: seems there's a change the id changes over time. Use diff to check if a new file is really a new file, in terms of content
-
-
